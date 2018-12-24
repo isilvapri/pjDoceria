@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/12/2018, 18:41:46
+    Author     : prpereira
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+    * {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+#cabecalho{
+    margin: 0 auto;
+    width: 57.9%;
+    height: 150px;
+    background-color: white;
+}
+
+html{
+    width: 100%;
+}
+#corpo{
+    margin: 0 auto;
+    height: 100%;
+    width: 57.9%;
+    background-color: white;
+}
+
+#rodape{
+    margin: 0 auto;
+    width: 57.9%;
+    height: 100px;
+    background-color: white;
+}
+
+
+nav{
+    width: 80%;
+}
+#loguinho{
+    width: 115px;
+    margin-left: 45%;
+}
+body{
+    background-image: url(img/bk3.jpg);
+    background-attachment: fixed;
+}
+
+#menu{
+    float: right;
+    background-color: pink;
+    width: 100%;
+}
+
+
+#menu ul li{
+    margin-top: 2%;
+    margin-left: 9%;
+    display: inline-block;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    padding: 2% 1% 2% 1%;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    
+    color: #616975;
+}
+
+#menu ul li a:hover{
+    color: pink;
+}
+
+p{
+    font-family: 'Exo', sans-serif;
+}
+
+
+#menu ul li:hover{
+    background-color: white;
+    border-radius: 25px;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    
+}
+
+.container{
+    float: left;
+    padding: auto;
+    margin-top: 0.5%;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+}
+
+.container img{
+    width: 100%;
+    
+}
+
+.container img:hover{
+    
+}
+
+#myCarousel{
+    width: 68.3%;
+    margin-left: -15px;
+}
+
+.separador{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%
+}
+
+.icons{
+    width: 30px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+
+.carousel slide{
+    margin: 0;
+}
+
+#rodape{
+    background-color: pink;
+    
+}
+
+#rodape div{
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+#copy{
+    margin: 24%;
+}
+
+#rodape div ul{
+    
+}
+
+#rodape div ul li{
+    display: inline-block;
+ 
+}
+
+
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }  
+
